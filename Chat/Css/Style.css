@@ -1,0 +1,80 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.panel-body .chatWindow
+{
+    float: left;
+    width: 80%;
+    height: 300px;
+    border-right: solid 1px #5f9482;
+    overflow-y: scroll;
+}
+
+.panel-body .chatWindow .message
+{
+    padding: 4px;
+}
+
+.panel-body .chatWindow .message .userName
+{
+    font-weight: bold;
+}
+
+.panel-body .chatWindow .message .loginUserName
+{
+    font-weight: bold;
+    color: forestgreen;
+}
+
+.panel-body .users
+{
+    float: right;
+    width: 20%;
+    height: 300px;
+    background-color: #10778e;
+    overflow-y: scroll;
+}
+
+.panel-body .users a
+{
+    color: #201e21;
+    text-decoration: none;
+}
+
+.panel-body .users .user
+{
+    display: block;
+    cursor: pointer;
+    padding: 4px;
+    border-bottom: solid 1px #5f9482;
+}
+
+.panel-body .users .loginUser
+{
+    display: block;
+    padding: 4px;
+    color: #ffa97d;
+    border-bottom: solid 1px #5f9482;
+}
+
+.panel-body .users .user:hover
+{
+    background-color: #e1e1e1;
+}
+
+
+.disconnect
+{
+    position: absolute;
+    margin: 10px;
+    background-color: #ffcbcb;
+    padding: 4px;
+    border: solid 1px red;
+}

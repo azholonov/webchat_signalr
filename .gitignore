@@ -1,0 +1,6 @@
+.vs
+packages/
+Chat/App_Data/
+Chat/bin/
+Chat/obj/
+Chat/Css/JQueryUI/
